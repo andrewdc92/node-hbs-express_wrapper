@@ -5,11 +5,10 @@
     <title>Home Page</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
-    <p> {{welcomeMessage}} </p>
+    <h1>{{> header}}</h1>
+    <p> {{screamIt welcomeMessage}} </p>
 
 
-    <p> Copyright {{currentYear}}</p>
-
+      {{> footer}}
   </body>
 </html>
